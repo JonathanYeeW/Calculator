@@ -19,8 +19,9 @@ class ViewController: UIViewController {
         print("xX_ ViewController _Xx")
         print("## viewDidLoad ##")
         super.viewDidLoad()
-        for button in buttonCollection { button.layer.cornerRadius = 32 }
-        for button in buttomButtonCollection { button.layer.cornerRadius = 32 }
+        // Code below that's commented out is to round the buttons
+//        for button in buttonCollection { button.layer.cornerRadius = 32 }
+//        for button in buttomButtonCollection { button.layer.cornerRadius = 32 }
         updateNumberFieldLabel()
     }
 
